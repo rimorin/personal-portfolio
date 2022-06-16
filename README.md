@@ -1,5 +1,10 @@
 # My Personal Portfolio 
 
+<img width="388" alt="Screenshot 2022-06-16 at 9 17 28 AM" src="https://user-images.githubusercontent.com/40650158/173971181-a94a7a39-63a3-4bd9-a134-d359c57e0db7.png">
+
+<img width="411" alt="Screenshot 2022-06-16 at 9 17 39 AM" src="https://user-images.githubusercontent.com/40650158/173971188-1d6fdd7f-48d9-4b93-99cc-65de6192c07f.png">
+
+
 ## Features
 
 ⚡️ Modern UI Design + Reveal Animations\
