@@ -39,12 +39,12 @@ a:hover {
 }
 
 .text-color-main {
-  @include supportColorForIE11();
+  @include text-gradient();
 
-  // Responsive text purple style
   @include respond(phone) {
     background-image: none;
     -webkit-text-fill-color: $secondary-color;
+    color: $secondary-color;
   }
 
   &:hover {
