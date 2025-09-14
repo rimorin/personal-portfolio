@@ -27,10 +27,6 @@
     "prettier": "^3.6.2"
   },
   "dependencies": {
-    "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.8",
-    "jquery": "^3.7.1",
-    "popper.js": "^1.16.1",
-    "vanilla-tilt": "^1.8.1"
+    "bootstrap": "^5.3.8"
   }
 }

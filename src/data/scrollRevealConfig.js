@@ -6,6 +6,8 @@ export const defaultProps = {
   mobile: true,
 };
 
+const isDesktop = window.innerWidth > 768;
+
 export const targetElements = [
   {
     element: ".section-title",
@@ -19,7 +21,7 @@ export const targetElements = [
     element: ".hero-title",
     animation: {
       delay: 500,
-      origin: window.innerWidth > 768 ? "left" : "bottom",
+      origin: isDesktop ? "left" : "bottom",
     },
   },
   {
@@ -33,35 +35,35 @@ export const targetElements = [
     element: ".about-wrapper__info",
     animation: {
       delay: 1000,
-      origin: window.innerWidth > 768 ? "left" : "bottom",
+      origin: isDesktop ? "left" : "bottom",
     },
   },
   {
     element: ".experience-wrapper__text",
     animation: {
       delay: 500,
-      origin: window.innerWidth > 768 ? "left" : "bottom",
+      origin: isDesktop ? "left" : "bottom",
     },
   },
   {
     element: ".experience-wrapper__details",
     animation: {
       delay: 1000,
-      origin: window.innerWidth > 768 ? "right" : "bottom",
+      origin: isDesktop ? "right" : "bottom",
     },
   },
   {
     element: ".education-wrapper__period",
     animation: {
       delay: 600,
-      origin: window.innerWidth > 768 ? "left" : "bottom",
+      origin: isDesktop ? "left" : "bottom",
     },
   },
   {
     element: ".education-wrapper__info",
     animation: {
       delay: 1000,
-      origin: window.innerWidth > 768 ? "right" : "bottom",
+      origin: isDesktop ? "right" : "bottom",
     },
   },
   {
